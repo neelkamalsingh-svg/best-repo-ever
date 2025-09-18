@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventEDITonDOB</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Date_of_Birth__c) &amp;&amp; ISNULL(Date_of_Birth__c)</errorConditionFormula>
+    <errorMessage>VALIDATION ERROR - DOB can not be modified</errorMessage>
+</ValidationRule>

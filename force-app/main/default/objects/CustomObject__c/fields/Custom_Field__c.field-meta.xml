@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Field__c</fullName>
+    <description>It will store the PDF content</description>
+    <inlineHelpText>It will store the PDF content</inlineHelpText>
+    <label>Custom_Field</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

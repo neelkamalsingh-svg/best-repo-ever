@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Series</fullName>
+    <active>true</active>
+    <label>X5 Series</label>
+    <picklistValues>
+        <picklist>Sun_Roof__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
